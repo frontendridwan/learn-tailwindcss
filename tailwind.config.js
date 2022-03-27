@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./ridwan.html"],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
