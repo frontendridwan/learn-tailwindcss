@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
   <title>Ridwan & Nadia</title>
 
   <!-- <link href="css/style.css" rel="stylesheet"> -->
@@ -17,26 +20,37 @@
 
 </head>
 <body>
-  <main class="w-screen">
-    <section class="sm:container flex mx-auto h-screen bg-coklat p-5">
+  <main class="w-full">
+    <section id="home" class="container flex mx-auto h-screen bg-coklat p-5">
       <img src="assets/bottom.png" class="absolute bottom-0 left-0 w-48 sm:invisible" alt="">
-    <img src="assets/top.png" class="absolute top-0 w-80 left-1/2 transform -translate-x-1/2 sm:invisible" alt="">
+      <img src="assets/top.png" class="absolute top-0 w-64 left-1/2 transform -translate-x-1/2 sm:invisible" alt="">
       <div class="m-auto">
         <img src="assets/logo.png" class="w-72 m-auto" alt="">
-        <p class="mt-8 font-clicker text-coklatua text-4xl text-center">Ridwan & Nadia</p>
+        <p class="mt-8 font-clicker text-coklatua text-4xl text-center">Fulan & Fulanah</p>
         <p class="mt-4 font-lora text-xs text-coklatua text-center truncate">Yth. Kepada Bapak/Ibu/Saudara/i</p>
         <p class="my-6 text-base font-bold text-coklatua text-center truncate">Muhammad Ridwan Pratama, S.Kom</p>
         <p class="text-xs font-lora text-coklatua text-center px-6">Tanpa mengurangi rasa hormat kamu mengundang untuk hadir dalam acara pernikahan kami.</p>
         <div class="flex justify-center">
-          <button class="mt-6 font-lora bg-transparent hover:bg-coklatua text-coklatua font-semibold hover:text-coklat py-1 px-3 border border-coklatua hover:border-transparent rounded-md">
+          <button class="mt-6 font-lora bg-transparent hover:bg-coklatua hover:transition hover:duration-300 text-coklatua font-semibold hover:text-coklat py-1 px-3 border-2 border-coklatua hover:border-transparent rounded-md">
             Jumat, 15 Juli 2022
           </button>
         </div>
       </div>
     </section>
-    <section class="sm:container flex mx-auto h-screen bg-coklat p-5">
+    <section id="date" class="h-screen bg-coklat p-5">
 
     </section>
+    <div class="relative"> 
+      <div class="z-10 fixed h-12 w-72 bottom-4 left-1/2 transform -translate-x-1/2 rounded-xl bg-coklatua flex flex-row">
+        <div class="basis-1/5 flex items-center justify-center"><a href="#home"><i class="bx bx-home-alt-2 text-coklat scale-125 hover:scale-150"></i></a></div>
+        <div class="basis-1/5 flex items-center justify-center"><a href="#date"><i class="bx bx-calendar-alt text-coklat scale-125 hover:scale-150"></i></a></div>
+        <div class="basis-1/5 flex items-center justify-center"><i class="bx bx-map text-coklat scale-125 hover:scale-150"></i></div>
+        <div class="basis-1/5 flex items-center justify-center"><i class="bx bx-gift text-coklat scale-125 hover:scale-150"></i></div>
+        <div class="basis-1/5 flex items-center justify-center"><i class="bx bx-chat text-coklat scale-125 hover:scale-150"></i></div>
+      </div>
+    </div>
+  
   </main>
+  
 </body>
 </html>
