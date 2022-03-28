@@ -6,7 +6,7 @@ module.exports = {
         clifford: '#da373d',
         coklat: '#FDF6F4',
         coklatua: '#795138',
-        coklamuda: '#795138',
+        coklatmuda: '#BF8058',
       },
       fontFamily: {
          lora: "'Lora', serif",
