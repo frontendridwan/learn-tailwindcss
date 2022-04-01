@@ -23,10 +23,18 @@
           <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
             <input class="pl-2 outline-none border-none" type="text" name="nim" id="nim" placeholder="NIM" />
           </div>
-          <div class="flex items-center border-2 py-2 px-3 rounded-2xl">
-            <input class="pl-2 outline-none border-none" type="password" name="" id="" placeholder="Password" />
+          <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
+            <input class="pl-2 outline-none border-none" type="password" name="pass" id="pass" placeholder="Password" />
           </div>
-          <button type="submit" class="block w-full bg-blue-900 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
+          <div class="flex items-start">
+            <div class="flex items-center h-5 ml-3">
+              <input onclick="showPass()" id="pwd" aria-describedby="pwd" type="checkbox" class="bg-gray-50 border border-gray-300 focus:ring-3 focus:ring-blue-600 h-4 w-4 rounded">
+            </div>
+            <div class="text-sm ml-1">
+              <label for="pwd" class="font-normal text-gray-600">Tampilkan password</label>
+            </div>
+          </div>
+          <button type="submit" class="block w-full bg-blue-900 mt-3 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
           <span class="text-sm ml-2 hover:text-blue-900 cursor-pointer">Ada Pertanyaan ? <a class="text-orange-500 font-bold" href="https://wa.me/6289689450466" target="_blank">Tanya</a></span>
           <div class="mt-7 mb-3 mx-auto w-3/4 h-[0.125rem] bg-blue-900"></div>
           <p class="text-center text-sm font-normal text-gray-600"><span class="text-gray-800 font-bold">UDINUS CAREER CENTER</span><br> UPT Layanan Karir dan Alumni Universitas Dian Nuswantoro</p>
@@ -36,6 +44,17 @@
         <div class="h-full bg-contain bg-no-repeat bg-center" style="background-image: url(./assets/tracer.png);"></div>
       </div>
     </div>
+
+    <script language="javascript">
+      function showPass() {
+        var x = document.getElementById("pass");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
   
   </main>
 </body>
