@@ -22,9 +22,9 @@
 </head>
 <body>
   <main class="w-full">
-    <section id="home" class="container flex mx-auto h-screen bg-coklat p-5">
-      <img src="assets/bottom.png" class="absolute bottom-0 left-0 w-48 sm:invisible" alt="">
-      <img src="assets/top.png" class="absolute top-0 w-64 left-1/2 transform -translate-x-1/2 sm:invisible" alt="">
+    <section id="home" class="container max-w-md flex mx-auto h-screen bg-coklat p-5">
+      <img src="assets/top.png" class="absolute top-0 w-64 left-1/2 transform -translate-x-1/2" alt="">
+      <img src="assets/bottom.png" class="absolute bottom-0 left-0 w-40" alt="">
       <div class="m-auto">
         <img src="assets/logo.png" class="w-72 m-auto" alt="">
         <p class="mt-8 font-clicker text-coklatua text-4xl text-center">Ridwan & Nadia</p>
@@ -38,7 +38,7 @@
         </div>
       </div>
     </section>
-    <section id="user" class="h-auto bg-coklat p-5">
+    <section id="user" class="h-auto container max-w-md mx-auto bg-coklat p-5">
       <h3 class="mt-8 font-clicker text-coklatua text-3xl text-center">Assalamualaikum Wr. Wb.</h3>
       <p class="my-4 text-xs font-lora text-coklatua text-center px-6">Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami:</p>
       <img src="assets/logo.png" class="w-40 m-auto" alt="">
@@ -53,19 +53,23 @@
       <p class="mt-6 font-clicker text-coklatua text-2xl text-center">Muhammad Ridwan Pratama, S.Kom</p>
       <p class="text-xs font-lora text-coklatua text-center py-2 px-14">Putra dari Bapak Supriyono, S.Kom dan Ibu Sumiyati, S.Pd</p>
     </section>
-    <section id="date" class="h-auto bg-coklat p-5">
-      <!-- <h3 class="mt-8 font-clicker text-coklatua text-3xl text-center">Assalamualaikum Wr. Wb.</h3> -->
-      <div class="flex justify-center">
+    <section id="date" class="h-auto container max-w-md mx-auto bg-coklat p-5">
+      <h3 class="mt-8 font-lora font-semibold text-coklatua text-xl text-center">Jumat, 15 Juli 2022</h3>
+      <!-- <div class="flex justify-center">
         <button class="mt-6 font-lora bg-transparent hover:bg-coklatua hover:transition hover:duration-300 text-coklatua font-semibold hover:text-coklat py-1 px-3 border-2 border-coklatua hover:border-transparent rounded-md">
           Jumat, 15 Juli 2022
         </button>
-      </div>
+      </div> -->
       <div class="h-12 w-72 bottom-4 flex flex-row my-5 mx-auto justify-between">
-        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span>0</span><p class="tect-coklat">Hari</p></div>
-        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span>0</span><p class="tect-coklat">jam</p></div>
-        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span>0</span><p class="tect-coklat">Menit</p></div>
-        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span>0</span><p class="tect-coklat">Detik</p></div>
+        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span id="hari">0</span><p class="tect-coklat">Hari</p></div>
+        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span id="jam">0</span><p class="tect-coklat">jam</p></div>
+        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span id="menit">0</span><p class="tect-coklat">Menit</p></div>
+        <div class="w-14 bg-coklatua rounded-lg justify-center text-center"><span id="detik">0</span><p class="tect-coklat">Detik</p></div>
       </div>
+    </section>
+    <section id="date" class="h-auto container max-w-md mx-auto bg-coklat p-5">
+      <h3 class="mt-8 font-lora font-semibold text-coklatua text-xl text-center">Jumat, 15 Juli 2022</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2354.7519124488513!2d110.44653468269873!3d-6.985129462472929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708cb75e64be3d%3A0x1b955272bc6953e6!2sGreat%20Mosque%20Convention%20Hall!5e0!3m2!1sen!2sid!4v1648623524320!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div class="mb-60"></div>
     </section>
 
